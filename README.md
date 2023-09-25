@@ -1,4 +1,5 @@
 # thsProject
 同花顺协议逆向工程
 
-登录和持久化登录完成了
+完成了登录和持久化登录
+如果要获取股票数据，自己用frida hook下StuffTableStruct和wireshark看下发包自己组包下就好了

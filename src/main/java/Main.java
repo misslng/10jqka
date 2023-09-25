@@ -22,12 +22,12 @@ public class Main {
                 System.out.println("发送初始化设备信息失败");
             }
             //发送登录验证包
-            thsCore.sendSmsLogin("13366755145");
+            thsCore.sendSmsLogin("your phone");
             Scanner scanner = new Scanner(System.in);
             while (true){
                 System.out.print("输入短信验证码:");
                 String checkCode = scanner.next();
-                if (thsCore.verifyCheckCode("13366755145",checkCode,4)) break;
+                if (thsCore.verifyCheckCode("your phone",checkCode,4)) break;
             }
         }
 

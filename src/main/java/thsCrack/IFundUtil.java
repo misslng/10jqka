@@ -1,0 +1,56 @@
+package thsCrack;
+
+public class IFundUtil {
+    public static final String ACCOUNT_INFO = "account_info";
+    private static final String ACCOUNT_INFO_JSON = "accountInfo";
+    public static final String ACTION_REVENUERANKING = "action=revenueranking";
+    private static final int ACTIVITY_INTENT_PRIVATE = 1;
+    private static final int ACTIVITY_INTENT_PUBLIC = 2;
+    public static final String CBAS_IJIJIN_PACKAGE_NAME = "packagename";
+    public static final String CBAS_IJIJIN_PACKVER = "packver";
+    public static final String CBAS_IJIJIN_PLATFORM = "platform";
+    public static final String CBAS_IJIJIN_TJID = "tjid";
+    public static final String CBAS_IJIJIN_TS = "ts";
+    public static final String CBAS_IJIJIN_USERID = "userid";
+    private static final String CLASS = "com.hexin.android.bank.util.IFundUtil";
+    private static final String CLIENT_PROTOCOL = "client.html?action=ijijin";
+    private static final String CUST_ID = "custId";
+    private static final String EXIT_IJIJIN = "exitIjijin";
+    private static final String GET_IFUND_USER_INFO = "getIFundUserInfo";
+    private static final String GOTO_IJIJI_NWITH_ACTION = "gotoIjijinWithAction";
+    public static final String HAS_CLICKED_KEEP_LOGIN = "is_keep_login_clicked";
+    public static final String IJIJIN_CLASS_NAME = "com.hexin.android.bank.LogoActivity";
+    public static final String IJIJIN_PACKAGE_NAME = "com.hexin.android.bank";
+    private static final String INIT_USE_SDK = "-1";
+    public static final int INVALID = -1;
+    public static final String IS_FIRST_LOGIN = "is_first_login";
+    private static final String IS_USE_FUND_SDK = "isUseFundSDK";
+    private static final String IS_USE_PLUGIN = "isPluginStart";
+    public static final String KEEP_LOGIN = "keeplogin";
+    public static final int KEEP_LOGIN_FLAG = 1;
+    public static final String KEEP_LOGIN_STATE = "keep_live_state";
+    public static final String KEY3 = "key3";
+    public static final String KEY4 = "key4";
+    public static final String KEY5 = "key5";
+    public static final String KEYS = "keys";
+    public static final String LOGIN_KEY3 = "login_key3";
+    public static final String LOGIN_KEY4 = "login_key4";
+    public static final String LOGIN_KEY5 = "login_key5";
+    public static final String LOGIN_SP_NAME = "login_new";
+    public static final String NOTIC_UPTIME = "notice_uptime";
+    private static final String NOT_USE_SDK = "1";
+    private static final int NO_ACTIVITY_INTENT = 0;
+    public static final String NULL = "null";
+    public static final String PLATFORM = "gphone";
+    private static final String SINGLE_DATA = "singleData";
+    public static final String SP_HEXIN = "sp_hexin_new";
+    private static final String TAG = "jjsdk";
+    private static final String THS_USER_LOGINED = "thsUserLogined";
+    public static final String TJID = "tjid";
+    public static final String TOKEN_WITHOUT_MD5 = "key1";
+    public static final String TOKEN_WITH_MD5 = "key2";
+    private static final int UNINSTALLED = 0;
+    private static Class ifundClass;
+    private static String isUsePlugin = "-1";
+
+}
